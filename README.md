@@ -6,7 +6,7 @@ LibGDX ile geliştirilen bir uygulama tek bir proje üzerinde geliştirilir ve m
 
 LibGDX ile oyun geliştirebilmek için projeyi şöyle oluşturuyoruz; https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle 
 
-Prite-Island için '/core' altında oluşturduğum kalsörlerim:
+Pirate-Island için '/core' altında oluşturduğum kalsörlerim:
 
  	buttons
 	collision 	
