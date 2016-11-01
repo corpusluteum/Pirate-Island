@@ -2,11 +2,11 @@
 
 LibGDX oyun kütüphanesi açık kaynak(open source) bir kütüphanedir. Projenin dokümantasyonu Wiki sayfası üzerinden yapılmakta. Kütüphane, Java programlama dili üzerine yazılmış.
 
-LibGDX ile geliştirilen bir uygulama tek bir proje üzerinde geliştirilir ve masaüstü, Android, iOS, Html gibi platformlara çıkartılabilir; /core dosyası altına oyun(java) classları yazılır ve farklı platformlar için farklı ayarlamalar /android , /desktop vs. altına yazılabilir.
+LibGDX ile geliştirilen bir uygulama tek bir proje üzerinde geliştirilir ve masaüstü, Android, iOS, Html gibi platformlara çıkartılabilir; '/core' dosyası altına oyun(java) classları yazılır ve farklı platformlar için farklı ayarlamalar '/android' , '/desktop' vs. altına yazılabilir.
 
 LibGDX ile oyun geliştirebilmek için projeyi şöyle oluşturuyoruz; https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle 
 
-core/.src/com/manik altında bulunan klasörler:
+Prite-Island için '/core' altında oluşturduğum kalsörlerim:
 
  	buttons
 	collision 	
@@ -19,8 +19,8 @@ core/.src/com/manik altında bulunan klasörler:
 	level 	
 	soundLoader 
 	states
- 	StartIslandMenu.java
-  
+ 	
+	StartIslandMenu.java
 StartIslandMenu.java classında oyunun State'lerini başlatıyoruz. 
 
 Not: Bu proje, desktop ve android için çalışır ve projede fizik motoru kullanılmamıştır.
